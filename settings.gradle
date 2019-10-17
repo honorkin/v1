@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='Baccarat Maybe Next v1'

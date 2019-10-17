@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Baccarat Maybe Next v1</string>
+        <string name="player">PLAYER</string>
+        <string name="banker">BANKER</string>
+        <string name="player_1st">1st</string>
+        <string name="player_2nd">2nd</string>
+        <string name="player_3rd">3rd</string>
+        <string name="banker_1st">1st</string>
+        <string name="banker_2nd">2nd</string>
+        <string name="banker_3rd">3rd</string>
+        <string name="how_to_use">How To Use</string>
+        <string name="maybe_next">Maybe Next</string>
+        <string name="i_hope_you_a_win">I hope You a Win !</string>
+</resources>
