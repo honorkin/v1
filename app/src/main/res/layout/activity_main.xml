@@ -7,7 +7,8 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layout_width="320dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:gravity="center_horizontal|fill_horizontal"
@@ -19,7 +20,7 @@
         <LinearLayout
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="100dp"
             android:gravity="center_horizontal|center_vertical"
             android:orientation="horizontal">
 
@@ -35,8 +36,8 @@
                     android:id="@+id/textView9"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="50"
-                    android:gravity="center_horizontal"
+                    android:layout_weight="40"
+                    android:gravity="center_horizontal|center_vertical"
                     android:text="@string/player"
                     android:textColor="#03A9F4"
                     android:textSize="18sp"
@@ -53,7 +54,7 @@
                     <EditText
                         android:id="@+id/player01"
                         android:layout_width="40dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:ems="10"
                         android:gravity="center_horizontal"
@@ -116,8 +117,8 @@
                     android:id="@+id/textView10"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="50"
-                    android:gravity="center_horizontal"
+                    android:layout_weight="40"
+                    android:gravity="center_horizontal|center_vertical"
                     android:text="@string/banker"
                     android:textColor="#E2857F"
                     android:textSize="18sp"
@@ -185,42 +186,71 @@
             </LinearLayout>
         </LinearLayout>
 
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_gravity="center_horizontal"
-            android:layout_weight="1"
-            android:gravity="center_horizontal"
-            android:text="@string/i_hope_you_a_win"
-            android:textSize="24sp"
-            android:textStyle="bold" />
-
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="46dp"
+            android:layout_height="65dp"
+            android:gravity="center_horizontal|center_vertical"
             android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/howtouse"
+            <TextView
+                android:id="@+id/textView"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.5"
-                android:background="#00BCD4"
-                android:text="@string/how_to_use"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="216dp" />
-
-            <Button
-                android:id="@+id/result"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.5"
-                android:background="#FFC107"
-                android:text="@string/maybe_next" />
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="@string/i_hope_you_a_win"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
         </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        tools:layout_editor_absoluteX="46dp">
+
+        <Button
+            android:id="@+id/howtouse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:background="#00BCD4"
+            android:text="@string/how_to_use"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="216dp" />
+
+        <Button
+            android:id="@+id/result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:background="#FFC107"
+            android:text="@string/maybe_next" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFEB3B"
+            android:text="www.honorkin.com" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
