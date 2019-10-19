@@ -8,9 +8,9 @@
 
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="320dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="0dp"
         android:gravity="center_horizontal|fill_horizontal"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,17 +19,15 @@
 
 
         <com.google.android.gms.ads.AdView
-            xmlns:ads="http://schemas.android.com/apk/res-auto"
             android:id="@+id/adView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_alignParentBottom="true"
-            ads:adSize="BANNER"
-            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
-        </com.google.android.gms.ads.AdView>
+            android:layout_centerHorizontal="true"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-3940256099942544/6300978111"></com.google.android.gms.ads.AdView>
 
-       <LinearLayout
+        <LinearLayout
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"
             android:layout_height="100dp"
@@ -75,6 +73,7 @@
                         android:inputType="number"
                         android:maxLength="1"
                         android:nextFocusDown="@+id/player02"
+                        android:selectAllOnFocus="true"
                         android:singleLine="true"
                         android:textSize="18sp"
                         tools:layout_editor_absoluteX="134dp"
@@ -92,6 +91,7 @@
                         android:inputType="number"
                         android:maxLength="1"
                         android:nextFocusDown="@+id/banker01"
+                        android:selectAllOnFocus="true"
                         android:singleLine="true"
                         android:textSize="18sp"
                         tools:layout_editor_absoluteX="-5dp"
@@ -109,6 +109,7 @@
                         android:inputType="number"
                         android:maxLength="1"
                         android:nextFocusDown="@+id/banker03"
+                        android:selectAllOnFocus="true"
                         android:singleLine="true"
                         android:textSize="18sp"
                         tools:layout_editor_absoluteX="64dp"
@@ -158,7 +159,9 @@
                         android:inputType="number"
                         android:maxLength="1"
                         android:nextFocusDown="@+id/banker02"
+                        android:selectAllOnFocus="true"
                         android:singleLine="true"
+                        android:textSize="18sp"
                         tools:layout_editor_absoluteX="273dp"
                         tools:layout_editor_absoluteY="51dp" />
 
@@ -174,7 +177,9 @@
                         android:inputType="number"
                         android:maxLength="1"
                         android:nextFocusDown="@+id/player03"
+                        android:selectAllOnFocus="true"
                         android:singleLine="true"
+                        android:textSize="18sp"
                         tools:layout_editor_absoluteX="342dp"
                         tools:layout_editor_absoluteY="51dp" />
 
@@ -190,7 +195,9 @@
                         android:inputType="number"
                         android:maxLength="1"
                         android:nextFocusDown="@+id/result"
+                        android:selectAllOnFocus="true"
                         android:singleLine="true"
+                        android:textSize="18sp"
                         tools:layout_editor_absoluteX="204dp"
                         tools:layout_editor_absoluteY="51dp" />
                 </LinearLayout>

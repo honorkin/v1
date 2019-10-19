@@ -31,15 +31,16 @@ class MainActivity : AppCompatActivity() {
 
         result.setOnClickListener {
 
-            val inputManager: InputMethodManager = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+         /*   val inputManager: InputMethodManager = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
 
             val hideSoftInputFromWindow = inputManager.hideSoftInputFromWindow(
                 currentFocus!!.windowToken,
                 InputMethodManager.HIDE_NOT_ALWAYS
-            )
+            ) */
 
             var ran = Math.random()
             var num08: kotlin.Int = Integer.parseInt(banker02.text.toString())
+            var num02: kotlin.Int = Integer.parseInt(player02.text.toString())
             var num09: String? = (banker03.text.toString())
 
             val num10 : kotlin.Int?
@@ -56,9 +57,9 @@ class MainActivity : AppCompatActivity() {
             var ran3 = Math.round(ran*1000)/1000.0
 
             if (num10 == 4 || num10 == 7 || num10 == 8 || num10 == 9) {
-                textView.setText( "$result2"+(50 + ran3 * 5))
+                textView.setText( "$result2"+(50 + ran3 *5 +num02/7))
             } else {
-                textView.setText( "$result1"+ (50 + ran3 * 5))
+                textView.setText( "$result1"+ (50 + ran3 *5+num02/7))
             }
 
         }
