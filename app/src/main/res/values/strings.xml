@@ -15,12 +15,14 @@
     <string name="please_note_that_all_choices_and_results_belong_to_the_user">Please note that all choices and results belong to the user.</string>
     <string name="it_s_for_a_table_directly_from_the_dealer_not_a_computer_deal">It\'s for a table directly from the dealer, not a computer deal.</string>
     <string name="please_enter_numbers_according_to_the_order_in_which_they_were_divided">Please enter numbers according to the order in which they were divided.</string>
-    <string name="leave_blank_if_there_is_no_third_card">Leave blank if there is no third card</string>
-    <string name="_10_11_12_and_13_are_all_zeros">10, 11, 12, and 13 are all zeros</string>
+    <string name="leave_blank_if_there_is_no_third_card">Leave blank if there is no third card. </string>
+    <string name="_10_11_12_and_13_are_all_zeros">10, 11, 12, and 13 are all zeros, So enter 0</string>
     <string name="if_you_are_using_it_wrong_move_it_to_another_table_and_test_it_before_use">If you are using it wrong, move it to another table and test it before use.</string>
     <string name="if_you_do_not_enter_the_number_correctly_the_app_will_freeze">If you do not enter the number correctly, the app will freeze.</string>
     <string name="copyright_2019_www_honorkin_com_all_rights_reserved">Copyright 2019.www.honorkin.com All rights reserved.</string>
     <string name="your_help_is_great_for_me">Your help is great for me</string>
     <string name="https_paypal_me_honokin_locale_x_ko_kr">https://paypal.me/honokin?locale.x=ko_KR</string>
     <string name="retun_to_main">Retun to Main</string>
+    <string name="we_don_t_think_of_a_tie">We don\'t think of a tie</string>
+    <string name="_10_11_12_and_13_are_all_zeros_so_enter_0">10_11_12_and_13_are_all_zeros, So enter 0</string>
 </resources>

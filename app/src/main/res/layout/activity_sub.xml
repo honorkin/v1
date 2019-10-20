@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     >
+
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
+        android:layout_margin="4dp"
         android:text="@string/please_note_that_all_choices_and_results_belong_to_the_user"
         android:textColor="#FF5722" />
 
@@ -19,33 +27,44 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
+        android:layout_margin="4dp"
         android:text="@string/it_s_for_a_table_directly_from_the_dealer_not_a_computer_deal" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/we_don_t_think_of_a_tie" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
+        android:layout_margin="4dp"
         android:text="@string/please_enter_numbers_according_to_the_order_in_which_they_were_divided" />
-
-    <TextView
-        android:id="@+id/textView14"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-
-        android:text="@string/leave_blank_if_there_is_no_third_card" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="@string/_10_11_12_and_13_are_all_zeros_so_enter_0" />
 
-        android:text="@string/_10_11_12_and_13_are_all_zeros" />
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+
+        android:text="@string/leave_blank_if_there_is_no_third_card" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="4dp"
 
         android:text="@string/if_the_test_results_are_correct_two_or_three_times_in_a_row_please_use_the_table" />
 
@@ -53,6 +72,7 @@
         android:id="@+id/textView7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="4dp"
 
         android:text="@string/if_you_are_using_it_wrong_move_it_to_another_table_and_test_it_before_use" />
 
@@ -60,6 +80,7 @@
         android:id="@+id/textView13"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="4dp"
 
         android:text="@string/if_you_do_not_enter_the_number_correctly_the_app_will_freeze" />
 
@@ -67,6 +88,7 @@
         android:id="@+id/textView8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="4dp"
 
         android:gravity="center"
         android:text="@string/copyright_2019_www_honorkin_com_all_rights_reserved"
@@ -77,7 +99,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:layout_weight="0.4"
+        android:height="20dp"
         android:background="#FFEB3B"
         android:gravity="center"
         android:text="@string/your_help_is_great_for_me" />
@@ -86,7 +108,7 @@
         android:id="@+id/textView11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.4"
+        android:height="20dp"
         android:autoLink="web"
         android:background="@null"
         android:gravity="center"
@@ -97,7 +119,10 @@
         android:id="@+id/btn2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:height="10dp"
         android:background="#03A9F4"
         android:text="@string/retun_to_main" />
+
 </LinearLayout>
+
+</ScrollView>

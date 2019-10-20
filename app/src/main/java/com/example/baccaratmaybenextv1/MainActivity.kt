@@ -57,9 +57,9 @@ class MainActivity : AppCompatActivity() {
             var ran3 = Math.round(ran*1000)/1000.0
 
             if (num10 == 4 || num10 == 7 || num10 == 8 || num10 == 9) {
-                textView.setText( "$result2"+(50 + ran3 *5 +num02/7))
+                textView.setText( "$result2"+(50 + ran3 *5 +num02/8))
             } else {
-                textView.setText( "$result1"+ (50 + ran3 *5+num02/7))
+                textView.setText( "$result1"+ (50 + ran3 *5+num02/8))
             }
 
         }
