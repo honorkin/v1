@@ -265,13 +265,13 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
 
         <TextView
-            android:id="@+id/textView11"
+            android:id="@+id/textView17"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:height="40dp"
             android:gravity="center"
-            android:text="@string/please_read_how_to_use_carefully_before_use"
-            android:textColor="#F44336" />
+            android:text="Please read Manual carefully before use"
+            android:textColor="#FF9800" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
