@@ -25,7 +25,7 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             app:adSize="BANNER"
-            app:adUnitId="ca-app-pub-3940256099942544/6300978111"></com.google.android.gms.ads.AdView>
+            app:adUnitId="ca-app-pub-4127534236390064/5958672997"></com.google.android.gms.ads.AdView>
 
         <LinearLayout
             android:id="@+id/linearLayout"
@@ -270,7 +270,7 @@
             android:layout_height="wrap_content"
             android:height="40dp"
             android:gravity="center"
-            android:text='Please read "How to Use" carefully before use.'
+            android:text="@string/please_read_how_to_use_carefully_before_use"
             android:textColor="#F44336" />
     </LinearLayout>
 

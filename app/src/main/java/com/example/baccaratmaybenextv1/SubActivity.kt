@@ -19,9 +19,9 @@ class SubActivity : AppCompatActivity() {
         setContentView(R.layout.activity_sub)
 
         MobileAds.initialize(this,
-            "ca-app-pub-3940256099942544~3347511713")
+            "ca-app-pub-4127534236390064~4647243710")
         mInterstitialAd = InterstitialAd(this)
-        mInterstitialAd.adUnitId = "ca-app-pub-3940256099942544/1033173712"
+        mInterstitialAd.adUnitId = "ca-app-pub-4127534236390064/4727134762"
         mInterstitialAd.loadAd(AdRequest.Builder().build())
 
 

@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         MobileAds.initialize(this,
-            "ca-app-pub-3940256099942544~3347511713")
+            "ca-app-pub-4127534236390064~4647243710")
 
         mAdView = findViewById(R.id.adView)
         val adRequest = AdRequest.Builder().build()
