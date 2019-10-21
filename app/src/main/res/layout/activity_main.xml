@@ -264,15 +264,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
 
-        <Button
-            android:id="@+id/button2"
+        <TextView
+            android:id="@+id/textView11"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:autoLink="web"
-            android:background="#FFEB3B"
-            android:text="www.honorkin.com" />
-
-
+            android:layout_height="wrap_content"
+            android:height="40dp"
+            android:gravity="center"
+            android:text='Please read "How to Use" carefully before use.'
+            android:textColor="#F44336" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

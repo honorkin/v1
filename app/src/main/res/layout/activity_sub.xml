@@ -99,27 +99,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:height="30dp"
+        android:height="40dp"
         android:background="#FFEB3B"
         android:gravity="center"
         android:text="@string/your_help_is_great_for_me" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/textView16"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:height="30dp"
+        android:height="40dp"
         android:autoLink="web"
-        android:background="@null"
         android:gravity="center"
-        android:text="@string/https_paypal_me_honokin_locale_x_ko_kr"
-        tools:text="PayPal to Honorkin" />
+        android:text="https://paypal.me/honokin?locale.x=en_US" />
 
     <Button
         android:id="@+id/btn2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:height="10dp"
+        android:height="40dp"
         android:background="#03A9F4"
         android:text="@string/retun_to_main" />
 

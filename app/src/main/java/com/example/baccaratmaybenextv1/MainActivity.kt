@@ -32,13 +32,6 @@ class MainActivity : AppCompatActivity() {
 
         result.setOnClickListener {
 
-         /*   val inputManager: InputMethodManager = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
-
-            val hideSoftInputFromWindow = inputManager.hideSoftInputFromWindow(
-                currentFocus!!.windowToken,
-                InputMethodManager.HIDE_NOT_ALWAYS
-            ) */
-
             var ran = Math.random()
             var num08: kotlin.Int = Integer.parseInt(banker02.text.toString())
             var num02: kotlin.Int = Integer.parseInt(player02.text.toString())
