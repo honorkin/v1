@@ -1,4 +1,4 @@
-package com.example.baccaratmaybenextv1
+package com.cho.baccaratmaybenextv1
 
 import org.junit.Test
 

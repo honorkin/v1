@@ -1,15 +1,12 @@
-package com.example.baccaratmaybenextv1
+package com.cho.baccaratmaybenextv1
 
-import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.inputmethod.InputMethodManager
 import kotlinx.android.synthetic.main.activity_main.*
 import com.google.android.gms.ads.MobileAds
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
-import com.google.android.gms.ads.InterstitialAd
 
 class MainActivity : AppCompatActivity() {
 

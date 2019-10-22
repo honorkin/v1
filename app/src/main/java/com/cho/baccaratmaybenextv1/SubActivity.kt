@@ -1,4 +1,4 @@
-package com.example.baccaratmaybenextv1
+package com.cho.baccaratmaybenextv1
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,7 +7,6 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.InterstitialAd
 import com.google.android.gms.ads.MobileAds
-import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_sub.*
 
 class SubActivity : AppCompatActivity() {
