@@ -1,4 +1,4 @@
-package com.cho.baccaratmaybenextv1
+package com.honor.baccaratmaybenextv1
 
 import android.content.Intent
 import android.os.Bundle
