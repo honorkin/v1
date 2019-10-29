@@ -101,25 +101,6 @@
             android:text="@string/copyright_2019_www_honorkin_com_all_rights_reserved"
             android:textColor="#FF9800" />
 
-        <TextView
-            android:id="@+id/textView12"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
-            android:height="40dp"
-            android:background="#FFEB3B"
-            android:gravity="center"
-            android:text="@string/your_help_is_great_for_me" />
-
-        <TextView
-            android:id="@+id/textView16"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:height="40dp"
-            android:autoLink="web"
-            android:gravity="center"
-            android:text="@string/https_paypal_me_honokin_locale_x_en_us" />
-
         <Button
             android:id="@+id/btn2"
             android:layout_width="match_parent"
